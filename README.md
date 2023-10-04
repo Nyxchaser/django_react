@@ -22,13 +22,7 @@ source venv/bin/activate
 ### Windows
 
 - navigate into the venv folder
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3df790-deb6-46e6-a71b-b2e95601bc4d/702025d3-81aa-4cb5-ba1e-80b30fbf2366/Untitled.png)
-
 - navigate into Scripts
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3df790-deb6-46e6-a71b-b2e95601bc4d/40533449-026e-492a-8244-cdcbb4d1c3bc/Untitled.png)
-
 - type this command:
 
 ```
