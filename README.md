@@ -6,7 +6,9 @@ Django is a Web framework that has been in the market for ≥ 10 years. It is a 
 ## Virtual Environment
 A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. Virtual environments are important is one project may need a different version of Django from another project.
 To make a virtual environment, run
-> python -m venv venv
+```
+python -m venv venv
+```
 - `-m` indicates “make”
 - the second `venv` is the name of the virtual environment
 ## Activate
