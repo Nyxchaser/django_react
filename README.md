@@ -73,8 +73,6 @@ python manage.py runserver
 python manage.py runserver 8080
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3df790-deb6-46e6-a71b-b2e95601bc4d/392c013c-4f77-42c0-8f10-f081dc836cf1/Untitled.png)
-
 - You should see this screen.
 
 ## Creating an App
