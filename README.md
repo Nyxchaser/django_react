@@ -104,3 +104,73 @@ Within the application folder:
 
 - `models.py`: objects in database
 - `views.py`: “endpoints” of our applications
+
+# About React
+
+## Introduction
+React is a frontend development framework created by Facebook that lets you build user interfaces out of individual pieces called components.
+
+## Setting up
+
+- ensure `Node.js` is installed on your machine
+- To check if Node is installed in your machine, run
+
+```
+node -v
+npm -v
+```
+
+- To replace `npm` with `yarn`, go here:
+
+[yarn's official installation website](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+# Creating Application
+
+- in the CLI and the directory where you want to create your React application, type:
+
+```
+npx create-react-app <name_of_app>
+cd <name_of_app>
+npm start
+```
+
+- Alternatively, you can replace
+
+```
+npx create-react-app <name_of_app>
+```
+
+with:
+
+```
+npm init react-app <name_of_app>
+```
+
+or (if you have yarn installed):
+
+```
+yarn create react-app <name_of_app>
+```
+
+# Common Errors
+- (Django) OperationalError
+    - You probably created new database stuff and forgot to migrate it
+    - Run 
+        ```
+        python manage.py makemigrations
+        ``` 
+        and then 
+        ```
+        python manage.py migrate
+        ```
+        again.
+- (React) When Creating a new React app: Error - no such file or directory
+    - Ensure you are in the correct directory
+    - Run these commands
+        
+        ```
+        npm uninstall -g create-react-app
+        npm install -g create-react-app
+        ```
+        
+    - update npm if necessary
