@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Testing } from './components/Testing';
+import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
 function ComponentName() {
@@ -10,7 +10,8 @@ function ComponentName() {
 function App() {
   return (
     <div className="App">
-      <Testing/>
+      <Header info="This is an example header"/>
+      <Header info="This is another example"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
