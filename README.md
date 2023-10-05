@@ -124,7 +124,7 @@ npm -v
 
 [yarn's official installation website](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 
-# Creating Application
+## Creating Application
 
 - in the CLI and the directory where you want to create your React application, type:
 

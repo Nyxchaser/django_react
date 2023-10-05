@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Testing } from './components/Testing';
+
+function ComponentName() {
+	return <p>This is a text block</p>
+}
 
 function App() {
   return (
     <div className="App">
+      <Testing/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <ComponentName/>
         </p>
         <a
           className="App-link"
