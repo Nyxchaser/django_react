@@ -174,3 +174,6 @@ yarn create react-app <name_of_app>
         ```
         
     - update npm if necessary
+ 
+  # Credits
+  Most of the content I followed was from a React-Django Full Stack Udemy course I took [here](https://www.udemy.com/course/react-django-full-stack/) by Krystian Czekalski. He's a really good teacher so do check him and the course out if you're keen!
