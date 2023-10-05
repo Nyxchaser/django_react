@@ -7,6 +7,11 @@ function ComponentName() {
 	return <p>This is a text block</p>
 }
 
+//function triggered on clicking
+function createAlert() {
+  alert("It seems like you clicked here!")
+}
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +22,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <ComponentName/>
-          <Footer note="React is fun!"/>
+          <Footer note="React is fun!"
+            my_alert = {createAlert}/>
         </p>
         <a
           className="App-link"
