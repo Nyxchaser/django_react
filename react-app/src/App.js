@@ -17,7 +17,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <ComponentName/>
-          <Footer/>
+          <Footer note="React is fun!"/>
         </p>
         <a
           className="App-link"
