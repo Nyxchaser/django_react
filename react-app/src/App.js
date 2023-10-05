@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Testing } from './components/Testing';
+import { Footer } from './components/Footer';
 
 function ComponentName() {
 	return <p>This is a text block</p>
@@ -15,6 +16,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <ComponentName/>
+          <Footer/>
         </p>
         <a
           className="App-link"
